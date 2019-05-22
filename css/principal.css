@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: green;
+    height: 200px;
+    padding: 20px;
+}
+p{
+    color: #111111;
+}
+
+footer{
+    clear: both;
+    background-color: blue;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0px 20px 0;
+    font-weight: bold;
+}
+
+h1{
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #111111;
+}
+h2{
+    color: #111111;
+    text-shadow: 5px 5px 5px #111111;
+}
+
+#logo{
+    float: left;
+}
+#menu{
+    margin-top: 70px;
+    margin-right: 100px;
+    float: right;
+}
+#menu a{
+    text-decoration: none;
+    padding: 15px;
+    color: #111111;
+    text-shadow: 1px 1px 1px #111111;
+}
+#menu a:hover{
+    color: #ffffff;
+}
+#principal{
+    min-height: 400px;
+    clear: both;
+    padding: 80px 0 0 0;
+}
+
+#div1{
+    background-color: red;
+    min-height: 200px;
+    padding: 20px 0px 20px 0px;
+    width: 60%;
+    float: left;
+}
+
+#div2{
+    background-color: yellow;
+    min-height: 200px;
+    padding: 20px 0px 20px 0px;
+    width: 40%;
+    float: right;
+}
+
+.container{
+    margin:0 auto;
+}
